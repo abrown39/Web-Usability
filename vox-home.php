@@ -84,6 +84,7 @@
 <link href="https://cdn0.vox-cdn.com/stylesheets/vox_universal.v893ba9e5b081442a.css" media="all" rel="stylesheet" />
 <link href="https://cdn0.vox-cdn.com/stylesheets/vox.v1ad2216efbbc515b.css" media="all" rel="stylesheet" />
 <link href="https://cdn1.vox-cdn.com/stylesheets/vox_print.vfa56d652d22583b5.css" media="print" rel="stylesheet" />
+<link href="vox.css" media="all" rel="stylesheet" />
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script type="text/javascript">window.jQuery || document.write('<script src="https://cdn3.vox-cdn.com/javascripts/vendor/jquery-1.11.2.min.js"><\/script>');</script>
@@ -366,12 +367,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="l-page-wrap">
         <div class="l-page-head">
           
-          <ul class="m-global-header__user-items">
-  <div class="l-page-wrap">
-    <a href="http://www.vox.com/login?return_to=http%3A%2F%2Fwww.vox.com%2F" id="user-nav-login" data-chorus-auth="login">Log In</a> /
-    <a data-chorus-auth="register" href="http://www.vox.com/signup?return_to=http%3A%2F%2Fwww.vox.com%2F">Sign Up</a>
-  <div class="m-global-header__tab" id="global-header__tab"></div>
-</div>
+  <ul class="m-global-header__user-items">
+      <div class="l-page-wrap">
+        <a href="http://www.vox.com/login?return_to=http%3A%2F%2Fwww.vox.com%2F" id="user-nav-login" data-chorus-auth="login">Log In</a> /
+        <a data-chorus-auth="register" href="http://www.vox.com/signup?return_to=http%3A%2F%2Fwww.vox.com%2F">Sign Up</a>
+      <div class="m-global-header__tab" id="global-header__tab"></div>
+    </div>
 </ul>
 <div class="m-global-header">
   <a href="/" class="m-global-header__logo">
@@ -426,12 +427,54 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </div>
 
-          
-          <div class="m-user-msg__root">
-  
-  
+ <div class="m-user-msg__root">
   
 </div>
+<!--###################### INCLUSION OF NAV BAR ########################### 
+#######
+#######
+#######
+-->
+<nav class="navbar">
+  <h3>Quick Links </h3>
+  <hr/>
+  <ul class="nav">
+        <li>
+          <a href="">Government</a>
+          <ul>
+            <li><a href="http://www.vox.com/culture">Politics</a></li>
+            <li>
+              <a href="http://www.vox.com/policy_and_politics">Policy and Politics</a>
+            </li>
+             <li>
+              <a href="http://www.vox.com/isis">ISIS</a>
+              <li><a href="http://www.vox.com/poverty">Poverty</a></li>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Lifestyle</a>
+            <ul>
+              <li><a href="http://www.vox.com/life">Life</a></li>
+              <li><a href="http://www.vox.com/culture">Culture</a></li>
+              <li><a href="http://www.vox.com/health">Health </a></li>
+              <li><a href="http://www.vox.com/sports">Sports</a></li>
+              
+            </ul>
+        </li>
+        <li><a href="">Science</a>
+          <ul>
+            <li><a href="http://www.vox.com/health_and_science">Health and Science</a></li>
+          </ul>
+        </li>
+        <li></li>
+    </ul>
+</nav>
+<!--###################### INCLUSION OF NAV BAR ########################### 
+#######
+#######
+#######
+-->
         </div>
       </div>
 
@@ -1081,6 +1124,104 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <a href="/news" rel="next">see all Vox stories</a>
   </span>
 </div>
+<!-- ################### SARA'S CHANGE TO MOVING Circle Menu in Middle of Page
+#####
+#####
+####
+####
+-->
+<div class="m-breaker m-breaker-circle m-breaker-icons" data-category="Anchor Breaker">
+
+  <ul class="m-breaker-blocks__nav">
+    <li class="m-breaker-blocks__nav--active">
+      <div class="m-breaker-circle__image">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80.7 80.7" class="icon_100" data-svg-fallback="/v/vox/scripts/../images/icon_100.png" data-svg-fallback-override="" width="100" height="100"><circle fill="#BBCBD3" cx="40.4" cy="40.4" r="40.4" class="shape-1"></circle><g fill="#FAED22"><path d="M38.7 26.4h-.2c-4.1 0-7.1 2-7.1 6.1v15.7c0 2 .7 4.3 2.1 5.7 1.4 1.4 3.1 2.6 5.1 2.6h.7c1 0 3.7-1.3 5.1-2.7 1.4-1.4 2-3.6 2-5.6V32.4c0-2-.9-3.2-2.3-4.6-1.4-1.3-3.5-1.4-5.4-1.4zm3.7 21.7c0 1.8-1.7 3.2-3.5 3.3-1.8 0-3.5-1.4-3.5-3.2V32.4c0-1.8 1.7-3.2 3.5-3.3 1.8 0 3.5 1.4 3.5 3.2v15.8z" class="shape-2"></path><path d="M55.8 26.4h-.2c-4.1 0-7.3 2-7.3 6.1v15.7c0 2 .8 4.3 2.2 5.7 1.4 1.4 3.2 2.6 5.2 2.6h.5c1 0 3.7-1.3 5.1-2.7 1.4-1.4 2-3.6 2-5.6V32.4c0-2-.8-3.2-2.2-4.6-1.3-1.3-3.3-1.4-5.3-1.4zm3.6 21.7c0 1.8-1.7 3.2-3.5 3.3-1.8 0-3.5-1.4-3.5-3.2V32.4c0-1.8 1.7-3.2 3.5-3.3 1.8 0 3.5 1.4 3.5 3.2v15.8z" class="shape-3"></path><path d="M26.4 26.4h-4.6c0 1-1.4.6-2.4.6v4.2c1 0 2-.1 3-.3v20.5h-3v5h10v-5h-3v-25z" class="shape-4"></path></g></svg>
+      </div>
+    </li>
+
+    <li>
+      <div class="m-breaker-circle__image">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80.7 80.7" class="icon_play" data-svg-fallback="/v/vox/scripts/../images/icon_play.png" data-svg-fallback-override="" width="100" height="100"><circle fill="#BBCBD3" cx="40.4" cy="40.4" r="40.4" class="shape-1"></circle><path fill="#FAED22" d="M28.5 20.9v38.3c0 .2.2.3.4.2l31.9-17.7c.2-.1.2-.3 0-.4L28.9 20.7c-.1-.1-.4 0-.4.2z" class="shape-2"></path></svg>
+      </div>
+    </li>
+
+    <li>
+      <div class="m-breaker-circle__image">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80.7 80.7" class="icon_maps" data-svg-fallback="/v/vox/scripts/../images/icon_maps.png" data-svg-fallback-override="" width="100" height="100"><circle fill="#BBCBD3" cx="40.4" cy="40.4" r="40.4" class="shape-1"></circle><path fill="#FAED22" d="M40.3 21c-7.5 0-13.5 6.1-13.5 13.5 0 10.1 5 16.9 13.4 30.3.1.1.2.1.2 0 8.4-13.4 13.4-20.2 13.4-30.3 0-7.4-6-13.5-13.5-13.5zm0 20.3c-3.7 0-6.8-3-6.8-6.8 0-3.7 3-6.8 6.8-6.8 3.7 0 6.8 3 6.8 6.8s-3.1 6.8-6.8 6.8z" class="shape-2"></path></svg>
+      </div>
+    </li>
+
+    <li>
+      <div class="m-breaker-circle__image">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80.7 80.7" class="icon_cardstack" data-svg-fallback="/v/vox/scripts/../images/icon_cardstack.png" data-svg-fallback-override="" width="100" height="100"><circle fill="#BBCBD3" cx="40.4" cy="40.4" r="40.4" class="shape-1"></circle><path fill="#FAED22" d="M22.4 22.4h28v28h-28z" class="shape-2"></path><path fill="#FAED22" d="M52.4 22.4v30h-28v2h30v-32z" class="shape-3"></path><path fill="#FAED22" d="M56.4 25.4v31h-29v2h31v-33z" class="shape-4"></path></svg>
+      </div>
+    </li>
+  </ul>
+  <ul class="m-breaker-blocks">
+
+      <li class="m-breaker-block">
+        <a href="/top-100" class="m-breaker-circle__image" sl-processed="1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80.7 80.7" class="icon_100" data-svg-fallback="/v/vox/scripts/../images/icon_100.png" data-svg-fallback-override="" width="100" height="100"><circle fill="#BBCBD3" cx="40.4" cy="40.4" r="40.4" class="shape-1"></circle><g fill="#FAED22"><path d="M38.7 26.4h-.2c-4.1 0-7.1 2-7.1 6.1v15.7c0 2 .7 4.3 2.1 5.7 1.4 1.4 3.1 2.6 5.1 2.6h.7c1 0 3.7-1.3 5.1-2.7 1.4-1.4 2-3.6 2-5.6V32.4c0-2-.9-3.2-2.3-4.6-1.4-1.3-3.5-1.4-5.4-1.4zm3.7 21.7c0 1.8-1.7 3.2-3.5 3.3-1.8 0-3.5-1.4-3.5-3.2V32.4c0-1.8 1.7-3.2 3.5-3.3 1.8 0 3.5 1.4 3.5 3.2v15.8z" class="shape-2"></path><path d="M55.8 26.4h-.2c-4.1 0-7.3 2-7.3 6.1v15.7c0 2 .8 4.3 2.2 5.7 1.4 1.4 3.2 2.6 5.2 2.6h.5c1 0 3.7-1.3 5.1-2.7 1.4-1.4 2-3.6 2-5.6V32.4c0-2-.8-3.2-2.2-4.6-1.3-1.3-3.3-1.4-5.3-1.4zm3.6 21.7c0 1.8-1.7 3.2-3.5 3.3-1.8 0-3.5-1.4-3.5-3.2V32.4c0-1.8 1.7-3.2 3.5-3.3 1.8 0 3.5 1.4 3.5 3.2v15.8z" class="shape-3"></path><path d="M26.4 26.4h-4.6c0 1-1.4.6-2.4.6v4.2c1 0 2-.1 3-.3v20.5h-3v5h10v-5h-3v-25z" class="shape-4"></path></g></svg>
+        </a>
+        <h2 class="m-breaker-block__title"><a href="/top-100" sl-processed="1">Top 100</a></h2>
+        <ul class="m-breaker-block__articles">
+            <li><a data-analytics-link="top100" href="http://www.vox.com/2015/4/14/8389515/iran-war" sl-processed="1">Here's what would really happen if the US bombed Iran</a></li>
+            <li><a data-analytics-link="top100" href="http://www.vox.com/2015/4/14/8412031/pluto-new-horizons" sl-processed="1">NASA's New Horizons probe is visiting Pluto — and just sent back its first color photos</a></li>
+            <li><a data-analytics-link="top100" href="http://www.vox.com/2015/4/14/8411801/rubio-s-odd-looking-campaign-logo-is-teaching-us-an-important-lesson" sl-processed="1">Rubio’s odd-looking campaign logo is teaching us an important lesson about typography</a></li>
+            <li><a data-analytics-link="top100" href="http://www.vox.com/2015/4/14/8411221/welfare-work-benefits" sl-processed="1">The big lie about families on welfare: they don't work</a></li>
+            <li><a data-analytics-link="top100" href="http://www.vox.com/2015/3/17/8232071/medicare-doc-fix-sgr" sl-processed="1">Congress passes $214 billion plan to fix Medicare. That's a big deal. </a></li>
+        </ul>
+      </li>
+
+      <li class="m-breaker-block m-breaker-block-videos">
+        <a href="/videos" class="m-breaker-circle__image" sl-processed="1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80.7 80.7" class="icon_play" data-svg-fallback="/v/vox/scripts/../images/icon_play.png" data-svg-fallback-override="" width="100" height="100"><circle fill="#BBCBD3" cx="40.4" cy="40.4" r="40.4" class="shape-1"></circle><path fill="#FAED22" d="M28.5 20.9v38.3c0 .2.2.3.4.2l31.9-17.7c.2-.1.2-.3 0-.4L28.9 20.7c-.1-.1-.4 0-.4.2z" class="shape-2"></path></svg>
+        </a>
+        <h2 class="m-breaker-block__title"><a href="/videos" sl-processed="1">Videos</a></h2>
+        <ul class="m-breaker-block__articles">
+            <li><a data-analytics-link="videos" href="http://www.vox.com/2015/3/11/8188907/wild-cat-videos-camera-traps" sl-processed="1">The best cat videos come from the wild</a></li>
+            <li><a data-analytics-link="videos" href="http://www.vox.com/2015/3/9/8161779/knuckle-cracking-science" sl-processed="1">Here's what happens to your knuckles when you crack them</a></li>
+            <li><a data-analytics-link="videos" href="http://www.vox.com/2015/3/7/8168759/obama-speech-selma-sections" sl-processed="1">Watch: The 3 most important sections of Obama's emotional speech in Selma</a></li>
+            <li><a data-analytics-link="videos" href="http://www.vox.com/2015/3/4/8150119/supreme-court-obamacare-arguments-king-burwell" sl-processed="1">Obamacare's Supreme Court arguments, explained in 2 minutes</a></li>
+            <li><a data-analytics-link="videos" href="http://www.vox.com/2015/3/3/8144079/netanyahu-speech-congress-video" sl-processed="1">Netanyahu's argument to Congress about Iran, explained in 2 minutes</a></li>
+        </ul>
+      </li>
+
+      <li class="m-breaker-block">
+        <a href="/maps" class="m-breaker-circle__image" sl-processed="1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80.7 80.7" class="icon_maps" data-svg-fallback="/v/vox/scripts/../images/icon_maps.png" data-svg-fallback-override="" width="100" height="100"><circle fill="#BBCBD3" cx="40.4" cy="40.4" r="40.4" class="shape-1"></circle><path fill="#FAED22" d="M40.3 21c-7.5 0-13.5 6.1-13.5 13.5 0 10.1 5 16.9 13.4 30.3.1.1.2.1.2 0 8.4-13.4 13.4-20.2 13.4-30.3 0-7.4-6-13.5-13.5-13.5zm0 20.3c-3.7 0-6.8-3-6.8-6.8 0-3.7 3-6.8 6.8-6.8 3.7 0 6.8 3 6.8 6.8s-3.1 6.8-6.8 6.8z" class="shape-2"></path></svg>
+        </a>
+        <h2 class="m-breaker-block__title"><a href="/maps" sl-processed="1">Maps</a></h2>
+        <ul class="m-breaker-block__articles">
+            <li><a data-analytics-link="maps" href="http://www.vox.com/2014/11/17/7082317/language-maps-charts" sl-processed="1">23 maps and charts on language</a></li>
+            <li><a data-analytics-link="maps" href="http://www.vox.com/2015/3/24/8267637/subway-style-maps" sl-processed="1">15 subway-style maps that explain everything but subways</a></li>
+            <li><a data-analytics-link="maps" href="http://www.vox.com/2014/12/30/7423149/alcohol-maps-charts" sl-processed="1">35 maps and charts that explain alcohol</a></li>
+            <li><a data-analytics-link="maps" href="http://www.vox.com/2014/9/23/6829399/23-maps-and-charts-that-will-surprise-you" sl-processed="1">22 maps and charts that will surprise you</a></li>
+            <li><a data-analytics-link="maps" href="http://www.vox.com/2015/3/9/8144825/space-maps" sl-processed="1">40 maps that explain outer space</a></li>
+        </ul>
+      </li>
+
+      <li class="m-breaker-block">
+        <a href="/cardstacks" class="m-breaker-circle__image" sl-processed="1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80.7 80.7" class="icon_cardstack" data-svg-fallback="/v/vox/scripts/../images/icon_cardstack.png" data-svg-fallback-override="" width="100" height="100"><circle fill="#BBCBD3" cx="40.4" cy="40.4" r="40.4" class="shape-1"></circle><path fill="#FAED22" d="M22.4 22.4h28v28h-28z" class="shape-2"></path><path fill="#FAED22" d="M52.4 22.4v30h-28v2h30v-32z" class="shape-3"></path><path fill="#FAED22" d="M56.4 25.4v31h-29v2h31v-33z" class="shape-4"></path></svg>
+         </a>
+        <h2 class="m-breaker-block__title"><a href="/cardstacks" sl-processed="1">Card Stacks</a></h2>
+        <ul class="m-breaker-block__articles">
+            <li><a data-analytics-link="cardstacks" href="http://www.vox.com/cards/everything-need-to-know-passover-moses-seder" sl-processed="1">Everything you need to know about&nbsp;Passover</a></li>
+            <li><a data-analytics-link="cardstacks" href="http://www.vox.com/cards/bitcoin" sl-processed="1">Bitcoin,&nbsp;explained</a></li>
+            <li><a data-analytics-link="cardstacks" href="http://www.vox.com/cards/war-on-drugs-marijuana-cocaine-heroin-meth" sl-processed="1">Everything you need to know about the war on&nbsp;drugs</a></li>
+            <li><a data-analytics-link="cardstacks" href="http://www.vox.com/cards/same-sex-marriage" sl-processed="1">Everything you need to know about same-sex&nbsp;marriage</a></li>
+            <li><a data-analytics-link="cardstacks" href="http://www.vox.com/cards/marijuana-legalization" sl-processed="1">Everything you need to know about marijuana&nbsp;legalization</a></li>
+        </ul>
+      </li>
+  </ul>
+</div>
+<!-- ################### SARA'S CHANGE TO MOVING Circle Menu in Middle of Page
+#####
+#####
+####
+####
+-->
   </div>
 </div>
 
